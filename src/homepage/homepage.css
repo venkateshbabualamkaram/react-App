@@ -8,7 +8,7 @@
     height: 100vh;
 }
 .landpage{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(144, 105, 105, 0.5);
     background-size:cover;
     background-position: center; 
     width: 100%;
@@ -18,19 +18,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right:50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right:5px;
 }
 .mini-container1{
-    background-image: url('/public/images/wwww.jpeg');/* Replace with your image path */
+    background-image: url('/public/images/free.jpeg');/* Replace with your image path */
     background-size: cover;
     height: 300px;
     width:500px;
-    margin-right: 70px;
+    margin-right: 30px;
 }
 .mini-container2{
-    background-image: url('/public/images/free.jpeg');/* Replace with your image path */
+    background-image: url('/public/images/image1.jpeg');/* Replace with your image path */
     background-size: cover;
     height: 300px;
     width:500px;
@@ -40,4 +40,43 @@
     background-color: rgba(0,0,0,0.5);
     height: 100%;
     width: 100%;
+}
+.write{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    color:white;
+    font-size: 20px;
+}
+.para1{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.para2{
+    color:white;
+    font-size: 15px;
+}
+.change{
+    margin-top:15px;
+}
+.small{
+    height:150px;
+    width:250px;
+    background-color: rgba(109, 142, 86, 0.066);
+    margin-top:10px;
+    margin-left:130px;
+}
+button{
+    width:120px;
+    margin-left: 70px;
 }

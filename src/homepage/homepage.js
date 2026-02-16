@@ -34,18 +34,41 @@ export function HomePage() {
         </div>
     </div>
 </nav>
+        <section  className="write mt-5">
+            <h3>Secure Collaboration <span className='para'>for the</span> Digital Economy</h3>
+        </section>
+        <div className="para1">
+        <p>A transparent ,role-based marketplace connecting skilled professionals <br />with top clients.</p>
+        </div>
             <div className="mini">
                     <div className="mini-container1">
                         <div className="child">
-
+                            <section className='write'>
+                                <h3 className='change'>I Want to Hire</h3>
+                                <p className='para2'>post a job and find top talent that fits your needs.</p>
+                            </section>
+                            <div className='small'>
+                                <section className='write'>
+                                    <h3 className='change'>Post a Job</h3>
+                                    <button className='btn btn-primary'>Post a Job</button>
+                                </section>
+                            </div>
                         </div>
-                        
                     </div>
                     <div className="mini-container2">
-                     <div className="child">
-                            
-                    </div>
+                        <div className="child">
+                        <section className='write'>
+                                <h3 className='change'>I Want to <span className='text-success'>Work</span></h3>
+                                <p className='para2'>Browse freelance opportunities to match your skillset</p>
+                            </section>
+                            <div className='small'>
+                                <section className='write'>
+                                    <h3 className='change'>Browse Jobs</h3>
+                                    <button className='btn btn-primary'>Browse jobs</button>
+                                </section>
+                            </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
