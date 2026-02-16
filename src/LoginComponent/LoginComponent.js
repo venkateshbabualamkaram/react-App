@@ -1,5 +1,6 @@
 import { Formik, Field, ErrorMessage, Form } from "formik"; // Added Form
 import * as Yup from "yup";
+import  './LoginComponent.css';
 
 export function LoginComponent() {
     const initialValues = {
@@ -24,7 +25,7 @@ export function LoginComponent() {
         <div className="container-fluid">
              <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
 
-<a href="#" class="navbar-brand">
+<a href="#" className="navbar-brand">
 
 <span className="ms-5 fs-3 h-1">PRO</span><span className="text-primary  fs-3 h-1">Lance</span>
 

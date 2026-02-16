@@ -1,0 +1,43 @@
+
+.container-fluid {
+    background-image: url('/public/images/landup.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    width: 100%;
+    height: 100vh;
+}
+.landpage{
+    background-color: rgba(0,0,0,0.5);
+    background-size:cover;
+    background-position: center; 
+    width: 100%;
+    height: 100vh;
+}
+.mini{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right:50px;
+}
+.mini-container1{
+    background-image: url('/public/images/wwww.jpeg');/* Replace with your image path */
+    background-size: cover;
+    height: 300px;
+    width:500px;
+    margin-right: 70px;
+}
+.mini-container2{
+    background-image: url('/public/images/free.jpeg');/* Replace with your image path */
+    background-size: cover;
+    height: 300px;
+    width:500px;
+    margin-right: 50px;
+}
+.child{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}

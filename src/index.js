@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import  { LoginComponent } from './LoginComponent/LoginComponent';  
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { HomePage } from './homepage/homepage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LoginComponent />
+    <HomePage />
   </React.StrictMode>
 );
 
