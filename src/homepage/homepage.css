@@ -5,14 +5,14 @@
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .landpage{
     background-color: rgba(144, 105, 105, 0.5);
     background-size:cover;
     background-position: center; 
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .mini{
     display: flex;
@@ -68,6 +68,7 @@
 }
 .change{
     margin-top:15px;
+
 }
 .small{
     height:150px;
@@ -79,4 +80,64 @@
 button{
     width:120px;
     margin-left: 70px;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child1{
+    background-color:rgba(109, 102, 102, 0.686);
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.child2{
+    background-color: rgba(109, 102, 102, 0.686);
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.child3{
+    background-color:  rgba(109, 102, 102, 0.686);
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;  
+    margin-bottom: 40px;
+}
+.cute{
+    color:rgba(87, 32, 96, 0.897);
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.para4{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 35px;
+}
+.can{
+    font-size: 35px;
 }

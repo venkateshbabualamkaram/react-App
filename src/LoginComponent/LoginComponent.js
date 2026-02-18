@@ -5,8 +5,7 @@ import  './LoginComponent.css';
 export function LoginComponent() {
     const initialValues = {
         name: "",
-        email: "",
-        password: ""
+        email: ""
     };
 
     const validationSchema = Yup.object().shape({
@@ -16,9 +15,7 @@ export function LoginComponent() {
             .max(10, "name must be at most 10 characters"),
         email: Yup.string()
             .email("invalid email")
-            .required("email is required"),
-        password: Yup.string()
-            .required("password is required")
+            .required("email is required")
     });
 
     return (
@@ -100,11 +97,6 @@ export function LoginComponent() {
                                     <label htmlFor="email" className="form-label">Email</label>
                                     <Field type="email" name="email" className="form-control" />
                                     <ErrorMessage name="email" component="div" className="text-danger" />
-                                </div>
-                                <div className="mb-3">
-                                    <label htmlFor="password" className="form-label">Password</label>
-                                    <Field type="password" name="password" className="form-control" />
-                                    <ErrorMessage name="password" component="div" className="text-danger" />
                                 </div>
                                 <button type="submit" className="btn btn-primary">Submit</button>
                             </Form>

@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import  { LoginComponent } from './LoginComponent/LoginComponent';  
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HomePage } from './homepage/homepage';
 

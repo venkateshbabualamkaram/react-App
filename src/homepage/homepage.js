@@ -29,7 +29,7 @@ export function HomePage() {
                     </li>
                 </ul>
                     <div>
-                <button className="btn btn-outline-light me-4 border-0">Sign In</button>
+                <a href="#" className="btn btn-outline-light me-4 border-0" >Sign In</a>
             <button className="btn btn-primary me-4">Join Now</button>
         </div>
     </div>
@@ -67,6 +67,25 @@ export function HomePage() {
                                     <button className='btn btn-primary'>Browse jobs</button>
                                 </section>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            <div className="body">
+                    <section className='mt-3'>
+                        <h3 className='change mode'>Why ProLance?</h3>
+                    </section>
+                    <div className="parent">
+                        <div className="child1 cen">
+                            <h4 className='write cute'>Secure Transactions</h4>
+                            <p className='para4'>End-to-end payment security with integrated<br/>gateway tracking</p>
+                        </div>
+                        <div className="child2 cen">
+                            <h4 className='write cute can'>Real-Time Collaboration</h4>
+                            <p className='para4'>End-to-end payment security with integrated<br/>gateway tracking</p>
+                        </div>
+                        <div className="child3 cen">
+                            <h4 className='write cute'>Transparent Merit</h4>
+                            <p className='para4'>Verified rating and review system<br />To ensure accountability and trust.</p>
                         </div>
                     </div>
                 </div>
